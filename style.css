@@ -1,0 +1,69 @@
+body {
+  background: lightblue;
+  color: black;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body.lightmode {
+  background: lightblue;
+  color: black;
+}
+
+body.lightmode .subtitle {
+  color: red;
+}
+body.darkmode .subtitle {
+  color: chartreuse;
+}
+
+body.darkmode {
+  background: darkblue;
+  box-sizing: border-box;
+  margin: 0;
+  color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.circle_c {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.circle_o {
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.circle_o.shadow_o {
+  box-shadow: 0 0 20px black;
+}
+
+section {
+  text-align: center;
+}
+
+section h1 {
+  font-size: 70px;
+}
+
+h1.lightmode {
+  color: aliceblue;
+}
+
+h1.darkmode {
+  color: aliceblue;
+}
